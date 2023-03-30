@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(153, 148, 148);
+    width:434px;
+    font-family: 'Signika Negative', sans-serif;
+    /* height: 100vh; */
+}
+.sidebar nav{
+    padding: 36px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 15px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+   color: black;
+}
+.sidebar nav li a:hover{
+    border-bottom:2px solid rgb(8, 8, 8) ;
+    transition: 0.3s linear;
+}
+.main{
+    width:140%;
+    /* height:100vh; */
+    background-image: linear-gradient(#fbccbf,#f3a5c8,#cdb2dc,#bcdcfd);
+}
+.intro h2{
+    color:#009879;
+    
+}
+.intro p{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.intro ul {
+    margin:30px;
+}
+.edu h2{
+    color:#009879;
+    padding: 3px;
+    margin: 5px;
+}
+/* table styling */
+.table{
+    margin: 50px;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(19, 18, 18, 0.15);
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.styled-table tbody tr.active-row1{
+    background-color: #e5dcef;
+}
+
+/* Project page styling */
+.project h2{
+    color:#009879;
+    padding: 3px;
+    margin: 5px;
+}
+.project p{
+    padding: 3px;
+    margin: 5px;
+}
+.image{
+    display:grid;
+    grid-template-columns: auto auto;
+    margin:20px;
+}
+.Pimg{
+    position: relative;
+    left:10px;
+
+}
+.container{
+    display: flex; 
+}
+.infoContainer{
+    height:60vh;
+    width: 75vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 60vh;
+    width: auto;
+}
+.devInfo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.hello{
+font-size: 27px;
+}
+.name{
+font-size: 30px;
+font-weight: bold;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.about{
+font-size: 20px;
+}
+.moreabout{
+    font-size: 18px;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+padding: 3px;
+border-radius: 12px;
+color: white;
+background-color:dodgerblue;
+font-weight: bold;
+font-size: 15px;
+margin: 0 3px;
+cursor: pointer;
+}
+.btn-sm{
+    font-size: 13px; 
+    margin: 7px;
+    padding:5px;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform{
+    padding: 0 40px;
+    padding-top: 70px;
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.contactform h1{
+    font-family: 'Signika Negative', sans-serif;
+    padding: 6px 0;
+    color:#009879;
+}
+.contactform form div{
+    padding:8px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 25vw ;
+    margin-top: 3px 0;
+    padding: 2px;
+    border-radius: 5px;
+}
+#emailHelp{
+    font-size: 12px;
+    color:rgb(129, 18, 233);
+    margin:0 3px;
+   
+}
+.intro h2{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+
+/* footer section properties */
+.footer{
+    background: url(footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ 
+ .footer .box-container .box h3{
+    color:white;
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    justify-content: center;
+    text-align: center;
+    display:flex;
+ }
+ .footer .box-container .box a{
+    color:white;
+    font-size: 1rem;
+    padding-bottom:0.5rem;
+    display: inline-block;
+    padding-right: 7rem;
+    margin-left: 10px;
+    /* text-decoration: none;  */
+}
+ .footer .credit{
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    
+    font-size: 1.5rem;
+    color:white;
+ }
+ .footer .credit span{
+    color:blueviolet;
+ }
+
